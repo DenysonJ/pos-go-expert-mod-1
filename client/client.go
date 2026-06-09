@@ -15,7 +15,7 @@ import (
 const (
 	serverURL      = "http://localhost:8080/cotacao"
 	requestTimeout = 300 * time.Millisecond
-	outputFile     = "price.txt"
+	outputFile     = "cotacao.txt"
 )
 
 type priceResponse struct {
